@@ -10,3 +10,19 @@ body {
 .gridster .gs_w {
 	background: #444444;
 }
+
+/* Brand */
+.widget-brand {
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	margin-top: 40px;
+}
+
+/* Clock */
+.widget-clock {
+	font-size: 48px;
+	color: white;
+	text-align: center;
+	margin-top: 40px;
+}
