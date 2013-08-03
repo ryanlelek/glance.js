@@ -1,4 +1,12 @@
 
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.gridster ul {
+	list-style: none;
+}
+
+.gridster .gs_w {
+	background: #444444;
 }
