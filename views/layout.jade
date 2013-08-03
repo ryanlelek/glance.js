@@ -9,11 +9,7 @@ html
 		link(type='text/css', rel='stylesheet', href='/assets/css/jumbotron-narrow.css')
 		link(type='text/css', rel='stylesheet', href='/assets/css/style.css')
 
-		link(type='image/x-icon'. rel='shortcut icon', href='/favicon.ico')
-
-		// This needs to be included here for widgets to be able to access it
-		// It should be implemented better...
-		script(type='text/javascript', src='/assets/library/jquery/jquery-v2.0.3.min.js')
+		link(type='image/x-icon', rel='shortcut icon', href='/favicon.ico')
 
 	body
 
@@ -58,6 +54,8 @@ html
 				p
 					a(target='_blank', href='https://github.com/ryanlelek/glance.js') GitHub Project
 
+		// Libraries
+		script(type='text/javascript', src='/assets/library/jquery/jquery-v2.0.3.min.js')
 		script(type='text/javascript', src='/assets/library/bootstrap/js/bootstrap-v3.0.0-RC1.min.js')
 		script(type='text/javascript', src='/assets/library/gridster/js/jquery.gridster-v0.1.0.min.js')
 		script(type='text/javascript', src='/assets/js/main.js')
