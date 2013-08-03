@@ -30,6 +30,9 @@ app.get('/example', routes.example);
 app.get('/documentation', routes.documentation);
 app.get('/credits', routes.credits);
 
+// Widget Routes
+app.get('/widgets/users', routes.widget_users);
+
 // Start Server
 http.createServer(app).listen(app.get('port'), function () {
 	console.log('HTTP Server Running on port:', app.get('port'));
