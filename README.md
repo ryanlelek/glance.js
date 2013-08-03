@@ -1,6 +1,6 @@
 Glance.js
-Status Dashboard for Key Metrics
 =======================
+A Status Dashboard for Key Metrics
 
 Introduction
 -----------------------
