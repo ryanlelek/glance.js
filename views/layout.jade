@@ -36,6 +36,13 @@ html
 						li
 							a(href='/documentation') Documentation
 
+					if active == 'credits'
+						li(class="active")
+							a(href='/credits') Credits
+					else
+						li
+							a(href='/credits') Credits
+
 				h3(class='text-muted') Status Board
 
 			block content

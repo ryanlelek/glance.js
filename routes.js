@@ -25,3 +25,12 @@ module.exports.documentation = function (req, res) {
 	});
 
 };
+
+// Credits
+module.exports.credits = function (req, res) {
+
+	res.render('credits', {
+		active : 'credits'
+	});
+
+};
