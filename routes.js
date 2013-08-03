@@ -16,3 +16,12 @@ module.exports.example = function (req, res) {
 	});
 
 };
+
+// Documentation
+module.exports.documentation = function (req, res) {
+
+	res.render('documentation', {
+		active : 'documentation'
+	});
+
+};

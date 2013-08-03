@@ -29,6 +29,12 @@ html
 						li
 							a(href='/example') Example
 
+					if active == 'documentation'
+						li(class="active")
+							a(href='/documentation') Documentation
+					else
+						li
+							a(href='/documentation') Documentation
 
 				h3(class='text-muted') Status Board
 
