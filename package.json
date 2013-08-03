@@ -1,8 +1,8 @@
 {
-  "name": "status-board",
+  "name": "glance.js",
   "version": "0.0.1",
   "private": false,
-  "repository": "https://github.com/ryanlelek/status-board",
+  "repository": "https://github.com/ryanlelek/glance.js",
   "scripts": {
     "start": "node app.js"
   },

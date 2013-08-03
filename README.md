@@ -1,9 +1,10 @@
-Status Board
+Glance.js
+Status Dashboard for Key Metrics
 =======================
 
 Introduction
 -----------------------
-Status Board is a real-time dashboard for displaying key metrics.
+Glance.js is a real-time dashboard for displaying your project's key metrics.
 If you need a status dashboard for your project's data, then this might be a good choice.
 
 Goals
