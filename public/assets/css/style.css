@@ -4,25 +4,36 @@ body {
 }
 
 .gridster ul {
+	background: #34495E;
 	list-style: none;
 }
 
 .gridster .gs_w {
-	background: #444444;
+	background: #2C3E50;
+	color: white;
+	text-align: center;
+}
+
+.rounded-corners {
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+/* Gridster */
+.preview-holder {
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
 }
 
 /* Brand */
 .widget-brand {
 	font-size: 30px;
-	color: white;
-	text-align: center;
-	margin-top: 40px;
+	margin-top: 30px;
 }
 
 /* Clock */
 .widget-clock {
 	font-size: 48px;
-	color: white;
-	text-align: center;
 	margin-top: 40px;
 }
