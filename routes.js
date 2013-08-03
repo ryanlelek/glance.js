@@ -60,6 +60,10 @@ module.exports.widget_users = function (req, res) {
 	// Generate New User Count (Between 1 and 10)
 	var addition = Math.floor(Math.random() * 10) + 1;
 
+	if (widget_user_count > 9999) {
+		widget_user_count = 281;
+	}
+
 	// Update
 	widget_user_count = widget_user_count + addition;
 
