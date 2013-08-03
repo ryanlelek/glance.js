@@ -23,6 +23,16 @@ module.exports.example = function (req, res) {
 
 };
 
+// Fullscreen
+module.exports.fullscreen = function (req, res) {
+
+	res.render('fullscreen', {
+		active : 'fullscreen',
+		title: prepend_project_name('Fullscreen')
+	});
+
+};
+
 // Documentation
 module.exports.documentation = function (req, res) {
 

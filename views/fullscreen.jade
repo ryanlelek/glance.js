@@ -1,0 +1,42 @@
+doctype 5
+html
+
+	head
+		title= title
+
+		link(type='text/css', rel='stylesheet', href='/assets/library/bootstrap/css/bootstrap-v3.0.0-RC1.min.css')
+		link(type='text/css', rel='stylesheet', href='/assets/library/bootstrap/css/bootstrap-glyphicons.css')
+		link(type='text/css', rel='stylesheet', href='/assets/library/gridster/css/jquery.gridster-v0.1.0.min.css')
+		link(type='text/css', rel='stylesheet', href='/assets/css/style.css')
+
+		link(type='image/x-icon', rel='shortcut icon', href='/favicon.ico')
+
+	body(style='background: #34495E;')
+
+		div.gridster
+			ul
+				li(class='rounded-corners', data-row='1', data-col='1', data-sizex='2', data-sizey='1')
+					div(class='widget-brand')
+						|Glance.js<br />Version 0.0.1
+				li(class='rounded-corners', data-row='1', data-col='2', data-sizex='2', data-sizey='1')
+					div(class='widget-clock')
+						span#widget-clock
+				li(class='rounded-corners', data-row='1', data-col='3', data-sizex='1', data-sizey='1')
+					div(class='widget-users', style='padding: 5px;')
+						p(style='font-size: 24px;') User<br />Count
+						p#widget-users(style='font-size: 50px;') ...
+				li(class='rounded-corners', data-row='2', data-col='1', data-sizex='1', data-sizey='1')
+					div(class='widget-custom rounded-corners', style='width: 140px; height: 140px; border: 5px dashed #FFFFFF; padding: 10px;') Your<br />Widget<br />Here
+
+		// Libraries
+		script(type='text/javascript', src='/assets/library/jquery/jquery-v2.0.3.min.js')
+		script(type='text/javascript', src='/assets/library/bootstrap/js/bootstrap-v3.0.0-RC1.min.js')
+		script(type='text/javascript', src='/assets/library/gridster/js/jquery.gridster-v0.1.0.min.js')
+		script(type='text/javascript', src='/assets/js/main.js')
+
+		// Widget - Clock
+		script(type='text/javascript', src='/widgets/clock/date.js')
+		script(type='text/javascript', src='/widgets/clock/widget.js')
+
+		// Widget - Users
+		script(type='text/javascript', src='/widgets/users/widget.js')
