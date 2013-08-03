@@ -2,17 +2,39 @@ extends layout
 
 block content
 
-	h1 Welcome to Status Board
-	h2 View your metrics at a glance
-	p Status Board was created to provide an open, free, and extendable platform for you to view key metrics of your projects at a glance.
+	div(class='container-narrow')
 
-	div.gridster
-		ul
-			li(data-row='1', data-col='1', data-sizex='2', data-sizey='1')
-				div(class='widget-brand')
-					|Status Board<br />Version 0.0.1
-			li(data-row='1', data-col='2', data-sizex='2', data-sizey='1')
-				div(class='widget-clock')
-					|12:00 PM
-			li(data-row='1', data-col='3', data-sizex='1', data-sizey='1')
-			li(data-row='2', data-col='1', data-sizex='1', data-sizey='1')
+		div(class='header')
+			ul(class='nav nav-pills pull-right')
+				li(class='active')
+					a(href='/') Home
+			h3(class='text-muted') Status Board
+
+		div(class='jumbotron')
+			h1 Status Board
+			p(class='lead') Project Metric Dashboard
+			p
+				a(class='btn btn-large btn-success', href='https://github.com/ryanlelek/status-board/archive/master.zip') Download
+
+		div(class='row marketing')
+
+			div(class='col-lg-6')
+
+				h4 Open Source
+				p Edit the source code to make a dashboard that is a custom fit for your project.
+
+				h4 Custom Widgets
+				p Use widgets created by the community or add your own.
+
+			div(class='col-lg-6')
+
+				h4 Easy Installation
+				p Just a few keystrokes and you're ready to rock. No need to setup complicated servers.
+
+				h4 Share Your Dashboard
+				p Give other members of your project access to see what's going on, and keep prying eyes out.
+
+		div(class='footer')
+
+			p
+				a(target='_blank', href='https://github.com/ryanlelek/status-board') GitHub Project
