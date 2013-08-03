@@ -11,6 +11,9 @@ block content
 					|Glance.js<br />Version 0.0.1
 			li(data-row='1', data-col='2', data-sizex='2', data-sizey='1')
 				div(class='widget-clock')
-					|12:00 PM
+					span#widget-clock
 			li(data-row='1', data-col='3', data-sizex='1', data-sizey='1')
 			li(data-row='2', data-col='1', data-sizex='1', data-sizey='1')
+
+	script(type='text/javascript', src='/widgets/clock/date.js')
+	script(type='text/javascript', src='/widgets/clock/widget.js')
