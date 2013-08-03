@@ -2,17 +2,15 @@ extends layout
 
 block content
 
-	div(class='container')
+	h1 Status Board Example
 
-		h1 Status Board Example
-
-		div.gridster
-			ul
-				li(data-row='1', data-col='1', data-sizex='2', data-sizey='1')
-					div(class='widget-brand')
-						|Status Board<br />Version 0.0.1
-				li(data-row='1', data-col='2', data-sizex='2', data-sizey='1')
-					div(class='widget-clock')
-						|12:00 PM
-				li(data-row='1', data-col='3', data-sizex='1', data-sizey='1')
-				li(data-row='2', data-col='1', data-sizex='1', data-sizey='1')
+	div.gridster
+		ul
+			li(data-row='1', data-col='1', data-sizex='2', data-sizey='1')
+				div(class='widget-brand')
+					|Status Board<br />Version 0.0.1
+			li(data-row='1', data-col='2', data-sizex='2', data-sizey='1')
+				div(class='widget-clock')
+					|12:00 PM
+			li(data-row='1', data-col='3', data-sizex='1', data-sizey='1')
+			li(data-row='2', data-col='1', data-sizex='1', data-sizey='1')

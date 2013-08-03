@@ -2,13 +2,17 @@
 // Home
 module.exports.home = function (req, res) {
 
-	res.render('home', {});
+	res.render('home', {
+		active : 'home'
+	});
 
 };
 
 // Example
 module.exports.example = function (req, res) {
 
-	res.render('example', {});
+	res.render('example', {
+		active : 'example'
+	});
 
 };

@@ -9,7 +9,34 @@ html
 		link(type='text/css', rel='stylesheet', href='/assets/css/style.css')
 
 	body
-		block content
+
+		div(class='container-narrow')
+
+			div(class='header')
+				ul(class='nav nav-pills pull-right')
+
+					if active == 'home'
+						li(class="active")
+							a(href='/') Home
+					else
+						li
+							a(href='/') Home
+
+					if active == 'example'
+						li(class="active")
+							a(href='/example') Example
+					else
+						li
+							a(href='/example') Example
+
+
+				h3(class='text-muted') Status Board
+
+			block content
+
+			div(class='footer')
+				p
+					a(target='_blank', href='https://github.com/ryanlelek/status-board') GitHub Project
 
 		script(type='text/javascript', src='/assets/library/jquery/jquery-v2.0.3.min.js')
 		script(type='text/javascript', src='/assets/library/bootstrap/js/bootstrap-v3.0.0-RC1.min.js')

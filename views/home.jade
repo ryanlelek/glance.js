@@ -2,43 +2,28 @@ extends layout
 
 block content
 
-	div(class='container-narrow')
+	div(class='jumbotron')
+		h1 Status Board
+		p(class='lead') Project Metric Dashboard
+		p
+			a(class='btn btn-large btn-success', href='https://github.com/ryanlelek/status-board/archive/master.zip') Download
+		p
+			a(class='btn btn-info', href='/example') Example
 
-		div(class='header')
-			ul(class='nav nav-pills pull-right')
-				li(class='active')
-					a(href='/') Home
-				li
-					a(href='/example') Example
-			h3(class='text-muted') Status Board
+	div(class='row marketing')
 
-		div(class='jumbotron')
-			h1 Status Board
-			p(class='lead') Project Metric Dashboard
-			p
-				a(class='btn btn-large btn-success', href='https://github.com/ryanlelek/status-board/archive/master.zip') Download
-			p
-				a(class='btn btn-info', href='/example') Example
+		div(class='col-lg-6')
 
-		div(class='row marketing')
+			h4 Open Source
+			p Edit the source code to make a dashboard that is a custom fit for your project.
 
-			div(class='col-lg-6')
+			h4 Custom Widgets
+			p Use widgets created by the community or add your own.
 
-				h4 Open Source
-				p Edit the source code to make a dashboard that is a custom fit for your project.
+		div(class='col-lg-6')
 
-				h4 Custom Widgets
-				p Use widgets created by the community or add your own.
+			h4 Easy Installation
+			p Just a few keystrokes and you're ready to rock. No need to setup complicated servers.
 
-			div(class='col-lg-6')
-
-				h4 Easy Installation
-				p Just a few keystrokes and you're ready to rock. No need to setup complicated servers.
-
-				h4 Share Your Dashboard
-				p Give other members of your project access to see what's going on, and keep prying eyes out.
-
-		div(class='footer')
-
-			p
-				a(target='_blank', href='https://github.com/ryanlelek/status-board') GitHub Project
+			h4 Share Your Dashboard
+			p Give other members of your project access to see what's going on, and keep prying eyes out.
