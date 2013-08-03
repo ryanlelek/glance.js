@@ -26,6 +26,7 @@ if ('development' == app.get('env')) {
 // Routes
 var routes = require('./routes.js');
 app.get('/', routes.home);
+app.get('/example', routes.example);
 
 // Start Server
 http.createServer(app).listen(app.get('port'), function () {
